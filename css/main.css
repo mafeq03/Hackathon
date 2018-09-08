@@ -1,0 +1,244 @@
+/* Header */
+header {
+    height: 600px;
+    background: url(../images/hero-banner.jpg);
+    background-size: cover;
+    background-position: center bottom;
+}
+header ul.navbar-nav.navbar-right li {
+    padding: 20px;
+}
+header ul.navbar-nav.navbar-right {
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+}
+.main-info h1 {
+    color: #fff;
+    font-size: 7em;
+}
+
+.main-info h3 {
+    font-size: 3em;
+    color: #fff;
+    padding-bottom: .4em;
+}
+.btn{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c9de96+0,8ab66b+44,398235+100;Green+3D+%233 */
+background: #c9de96; /* Old browsers */
+background: -moz-linear-gradient(top, #c9de96 0%, #8ab66b 44%, #398235 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #c9de96 0%,#8ab66b 44%,#398235 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #c9de96 0%,#8ab66b 44%,#398235 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9de96', endColorstr='#398235',GradientType=0 ); /* IE6-9 */
+width: 190px;
+    border-radius: 6px;
+    color: #fff;
+    border: 0;
+    padding: .5em 1em;
+}
+/* Hero */
+.overview{
+    background: #386868;
+    padding: 3em 3em 6em;
+}
+.buy-section h2{
+    font-size:5em;
+    color:#fff;
+    padding-bottom:.5em;
+}
+.buy-section{
+    background: #386868;
+    padding: 3em 3em 6em;
+}
+/* Overview */
+
+/* Testimonial */
+.carousel{
+    position: relative;
+    background-color: #CEA889;
+    padding: 3em 3em 6em;
+}
+h1,h2,h3{
+    font-family: 'Amatic SC', cursive;
+}
+
+.carousel h2,.overview h2 {
+    text-align: center;
+    font-size: 5em;
+    padding-bottom: .5em;
+    color:#fff;
+}
+.carousel p{
+    color:#ffffff;
+}
+.carousel-wrapper {
+    position: relative;
+    height: 315px;
+}
+
+
+.carousel .actions button {
+    background: transparent;
+    border: 0;
+    position: absolute;
+    outline: 0;
+    cursor: pointer;
+}
+
+.carousel .actions {
+    position: relative;
+    z-index: 99;
+    top: 2em;
+
+    font-size: 3em;
+}
+
+.carousel .actions button:first-child {
+    position: absolute;
+    left: 0;
+}
+
+.carousel .actions button:last-child {
+    right: 0;
+}
+
+.testimonial{
+    transition: 500ms;
+    visibility: hidden;
+    opacity: 0;
+    position:absolute;
+}
+.testimonial > div{
+    box-sizing: border-box;
+    padding: 1em;
+}
+.testimonial.active{
+    visibility: visible;
+    opacity: 1;
+}
+
+.testimonial strong{
+    color:#386868;
+}
+.testimonial .content{
+    text-align: left;
+    padding-top: 5em;
+}
+.testimonial .photo {
+    text-align: center;
+}
+
+.testimonial .photo img {
+    border-radius: 10px;
+    border: 1px solid;
+    height: 280px;
+}
+
+.testimonial .rating li {
+    display: inline-block;
+}
+
+
+.testimonial .rating {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.testimonial .rating i.on{
+    color:#386868;
+}
+
+.testimonial .rating i.off{
+    gcolor:#9b9b9b;
+}
+
+/* Benefit section */
+.benef-img {
+    text-align: center;
+    width: 100%;
+    border-radius: 15px;
+    height: 240px;
+    padding: 15px 0 30px 0;
+}
+
+.benef-img:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.benef-child-header {
+font-size: 20px;
+font-weight: bold;
+margin-top: 10px;
+text-align: center;
+color: white;
+}
+
+.benef-chiild-text {
+    text-align: center;
+    color: white;
+    padding-top: 2em;
+}
+
+/* Buy Section*/
+.buy-section{
+    text-align: center;
+}
+
+.buy-input{
+width: 20%;
+}
+
+.buy-button{
+margin: 20px;
+width: 12%;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Footer */ 
+footer {
+    background: #000;
+    height: 90px;
+    padding: 1em 3em;
+}
+footer h3 {
+    position: relative;
+    top: 3px;
+}
+footer ul {
+    float: right;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0.5em;
+}
+
+footer ul {
+    color: #fff;
+}
+
+
+.navbar {
+    background-color: transparent;
+    opacity: 0.5;
+  }
+  
+  .p-2{
+   padding: 100px 100px 100px 100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+  
+  .btn-info{
+   height: 40px;
+   width: 100px;
+  }
+  
+  .main-info{
+   position: absolute;
+   padding: 100px 100px 100px 100px;
+   background-image: url("/images/chia-back.jpg");
+   background-size: cover;
+  }

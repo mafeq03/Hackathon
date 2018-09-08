@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="30px" viewBox="0 0 16 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>Arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="desktop-landing-page-copy" transform="translate(-949.000000, -1544.000000)" fill="#81817D" fill-rule="nonzero">
+            <g id="3.-Testimonial-section" transform="translate(-2.000000, 1273.000000)">
+                <path d="M966.14351,300.82 C965.927179,300.82 965.710185,300.737829 965.543216,300.57415 L951.39357,286.642912 C951.151399,286.487185 951,286.21748 951,285.922925 C951,285.649575 951.130196,285.389478 951.341889,285.226794 L965.429584,271.248175 C965.765842,270.915516 966.307498,270.917504 966.640111,271.252813 C966.973718,271.588785 966.971068,272.130847 966.635142,272.463837 L953.086784,285.907684 L966.744467,299.35385 C967.081387,299.685515 967.085694,300.227576 966.754074,300.564542 C966.586442,300.734516 966.365142,300.82 966.14351,300.82 Z" id="Arrow" transform="translate(959.000000, 285.910000) scale(-1, 1) translate(-959.000000, -285.910000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
